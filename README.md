@@ -1,11 +1,11 @@
 # CNN LSTM 
-Implementation of CNN LSTM with Resnet backend for Video Classification
-![alt text](https://raw.githubusercontent.com/HHTseng/video-classification/master/fig/CRNN.png)
+Implementacion de un modelo de red CNN + RNN
+ 
 
-# Getting Started
-## Prerequisites
+#
+## Prerequisitos
 * PyTorch (ver. 0.4+ required)
-* FFmpeg, FFprobe
+* FFmpeg
 * Python 3
 
 
