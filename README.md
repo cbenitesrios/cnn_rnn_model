@@ -34,9 +34,9 @@ Implementacion de un modelo de red CNN + RNN
 
 ## Entrenamiento y validación 
 Ejecutar en consola el siguiente comando.
-  ... 
+   
   python main.py --use_cuda --gpu 0 --batch_size 15 --n_epochs 50 --num_workers 1  --video_path ./data/image_data/ --sample_size 240 --lr_rate 0.001 -- n_classes (numero de  clases)
-  ...
+ 
 
 ## Interfaz web
 
