@@ -1,38 +1,31 @@
-# CNN LSTM 
+# Seminario 2
 Implementacion de un modelo de red CNN + RNN
  
 
 #
 ## Prerequisitos
-* PyTorch (ver. 0.4+ required)
+* PyTorch 
 * FFmpeg
 * Python 3
+* Flask
+
+## Preprocesamiento 
+1. Ordenar los videos del dataset de la siguiente manera dentro de las carpeta ./data/video_data
+
+  ```
+   data 
+       video_data    
+              Abuso
+              Disparo
+              Normal 
+                      normal1.mp4
+                      normal2.mp4
+                      normal3.mp4
+  ```
 
 
-### Try on your own dataset 
-
-```
-mkdir data
-mkdir data/video_data
-```
-Put your video dataset inside data/video_data
-It should be in this form --
-
-```
-+ data 
-    + video_data    
-            - bowling
-            - walking
-            + running 
-                    - running0.avi
-                    - running.avi
-                    - runnning1.avi
-```
-
-Generate Images from the Video dataset
-```
-./utils/generate_data.sh
-```
+ 2. 
+ ```
 
 ## Train
 Once you have created the dataset, start training ->
