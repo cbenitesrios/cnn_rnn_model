@@ -38,7 +38,7 @@ Implementacion de un modelo de red CNN + RNN
    
   python main.py --use_cuda --gpu 0 --batch_size 15 --n_epochs 50 --num_workers 1  --video_path ./data/image_data/ --sample_size 240 --lr_rate 0.001 -- n_classes (numero de  clases)
  
-2. Ver los logs finales de validacion y entrenmiento  tensorboard --logdir D:\TESIS\ULTIMO\tf_logs
+2. Ver los logs finales de validacion y entrenmiento  tensorboard --logdir ".\tf_logs"
 
 ## Interfaz web
 
