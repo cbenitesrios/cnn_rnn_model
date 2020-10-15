@@ -8,7 +8,7 @@ Implementacion de un modelo de red CNN + RNN
 * FFmpeg
 * Python 3
 * Flask
-* Tensoarboard
+* Tensorboard
 
 ## Preprocesamiento 
 1. Ordenar los videos del dataset de la siguiente manera dentro de las carpeta ./data/video_data
