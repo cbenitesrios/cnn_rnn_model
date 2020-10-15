@@ -24,29 +24,14 @@ Implementacion de un modelo de red CNN + RNN
   ```
 
 
- 2. 
+ 2. python ./utils/video_jpg.py
+    python ./utils/n_frames.py
+    python ./utils/gen_anns_list.py
+    python ./utils/to_json.py 
   
 
 ## Preprocesamiento 
-Once you have created the dataset, start training ->
- 
-python main.py --use_cuda --gpu 0 --batch_size 10 --n_epochs 80 --num_workers 0  --annotation_path ./data/annotation/ucf101_01.json --video_path ./data/image_data/ --sample_size 150 --lr_rate 0.01 --n_classes <num_classes>
-```
 
-## Note 
-* All the weights will be saved to the snapshots folder 
-* To resume Training from any checkpoint, Use
-```
---resume_path <path-to-model> 
-```
-
-
-## Tensorboard Visualisation(Training for 4 labels from UCF-101 Dataset)
- 
-
-
-## Inference
- 
 
 ## Refeencias
 * https://github.com/kenshohara/video-classification-3d-cnn-pytorch
